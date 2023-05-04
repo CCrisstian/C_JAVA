@@ -2,6 +2,8 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.*;
+import javax.swing.ImageIcon;
+
 
 public class Yeah_Buddy_Light_weight {
     public static void main(String[] args) throws Exception {
@@ -17,7 +19,8 @@ public class Yeah_Buddy_Light_weight {
         clip.start();
 
         // Mostrar un mensaje por pantalla
-        JOptionPane.showMessageDialog(null,"Yeah Buddy!\nLight weight");
+        ImageIcon icono = new ImageIcon("C:\\Users\\criss\\Documents\\JAVA\\C_JAVA\\HelloWorld\\src/icono.jpg");
+        JOptionPane.showMessageDialog(null,icono,"Ronnie JAVA",JOptionPane.INFORMATION_MESSAGE);
         // Esperar a que termine el sonido
         Thread.sleep(clip.getMicrosecondLength() / 1000);
 
