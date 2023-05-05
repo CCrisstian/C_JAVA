@@ -20,7 +20,7 @@ public class Yeah_Buddy_Light_weight {
 
         // Mostrar un mensaje por pantalla
         ImageIcon icono = new ImageIcon("C:\\Users\\criss\\Documents\\JAVA\\C_JAVA\\HelloWorld\\src/icono.jpg");
-        JOptionPane.showMessageDialog(null,icono,"Ronnie JAVA",JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null,null,"Ronnie JAVA",JOptionPane.INFORMATION_MESSAGE,icono);
         // Esperar a que termine el sonido
         Thread.sleep(clip.getMicrosecondLength() / 1000);
 
